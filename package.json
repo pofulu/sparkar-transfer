@@ -1,0 +1,30 @@
+{
+  "name": "sparkar-transfer",
+  "version": "0.1.0",
+  "description": "A Spark AR tool to send any object's transform value to Patch Editor.",
+  "main": "Transfer.js",
+  "author": "Pofu Lu",
+  "keywords": [
+    "sparkar",
+    "spark-ar",
+    "transform",
+    "transfer",
+    "patch-editor",
+    "pofu"
+  ],
+  "files": [
+    "./Transfer.js"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pofulu/sparkar-transfer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pofulu/sparkar-transfer/issues"
+  },
+  "homepage": "https://github.com/pofulu/sparkar-transfer#readme",
+  "license": "MIT"
+}
