@@ -1,6 +1,6 @@
 {
   "name": "sparkar-transfer",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Spark AR tool to send any object's transform value to Patch Editor.",
   "main": "Transfer.js",
   "author": "Pofu Lu",
