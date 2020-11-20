@@ -1,3 +1,5 @@
+> It's recommended to use built-in [local transform and global transform patch](https://sparkar.facebook.com/ar-studio/learn/patch-editor/utility-patches/global-and-local-transform-patches) to instead this after [v102](https://sparkar.facebook.com/ar-studio/learn/changelog#102).
+
 # Transfer
 
 ![index](https://github.com/pofulu/sparkar-transfer/blob/master/README.assets/index.gif?raw=true)

@@ -58,7 +58,7 @@ targets.then(results => {
             Patches.inputs.setPoint(pattern.replace('KEY', WORLD_POSITION_KEYWORD), target.worldTransform.position),
             Patches.inputs.setPoint(pattern.replace('KEY', WORLD_SCALE_KEYWORD), Reactive.pack3(target.worldTransform.scaleX, target.worldTransform.scaleY, target.worldTransform.scaleZ)),
             Patches.inputs.setPoint(pattern.replace('KEY', WORLD_ROTATION_KEYWORD), Reactive.pack3(target.worldTransform.rotationX.mul(R2D), target.worldTransform.rotationY.mul(R2D), target.worldTransform.rotationZ.mul(R2D))),
-        ]);
+        ]).catch(e => { });
     })
 
     return Promise.all(setAllFromScript);
